@@ -67,7 +67,6 @@ ul, ol, li, dd, dl, dt {
 #head .searchArea input[type='text'] {
 	width: 292px;
 	height: 19px;
-	font-size: 12px;
 	color: #999999;
 }
 #head .searchArea {
@@ -238,14 +237,239 @@ ul, ol, li, dd, dl, dt {
 	margin-top: 5px;
 	padding: 10px;
 }
+.recommendTitle {
+	border-bottom: 1px solid #C9C9C9;
+	padding: 0 5px 3px 0;
+}
 .recommendTitle h2 {
 	color: #B70717;
 	font-size: 16px;
+	float: left;
+}
+.recommendTitle .slider {
+	float: right;
+} 
+.recommendInner {
+	margin: 0px 0 5px;
+}
+.recommendInner ul {
+	height: 488px;
+	overflow: hidden;
+}
+.recommendInner ul li {
+	float: left;
+	width: 188.6px;
+	padding: 0 0px 0 3px;
+	margin-top: 20px;
+}
+.recommendInner ul li h4, .recommendInner ul li p {
+	text-align: left;
+}
+.recommendInner ul li h4 {
+	color: #434343;
+	margin: 5px 0;
+}
+.recommendInner ul li h4:hover {
+	color: #666666;
+}
+.recommendInner ul li p a:hover {
+	color: #B70717;
+	text-decoration: none;
+}
+.rank {
+	margin-top: 5px;
+	border: 1px solid #C9C9C9;
+	border-radius: 5px;
+	background: #FFFFFF;
+	padding: 10px;
+}
+.rankTitle {
+	border-bottom: 1px solid #C9C9C9;
+	padding: 0 5px 3px 0;
+}
+.rankTitle h2 {
+	color: #B70717;
+	font-size: 16px;
+	float: left;
+}
+.rankTitle a {
+	float: right;
+	color: #434343;
+}
+.rankTitle a:hover {
+	text-decoration: none;
+}
+.rankTitle a img {
+	vertical-align: top;
+	margin-left: 5px;
+}
+.singleRank, .albumRank, .singerRank {
+	float: left;
+}
+.singleRank {
+	border-right: 1px solid #C9C9C9;
+	padding: 0 10px 0 0;
+}
+.singleRank h3 {
+	color: #515151;
+	font-size: 14px;
+	margin: 5px 0; 
+}
+.singleRank ul {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.singleRank li:after {
+	content: "";
+	overflow: hidden;
+	clear: both;
+	display: block;
+}
+.singleRank li .singlePic {
+	float: left;
+}
+
+.singleRank li .singleInfo {
+	float: left;
+	margin-left: 10px;
+}
+.rankInner  h4 {
+	color: #B70717;
+}
+.rankInner .singer {
+	color: #434343;
+}
+.singleRank li {
+	border-bottom: 1px dotted #C9C9C9;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	width: 333px;
+	padding-left: 70px;
+}
+.singleRank li .singleInfo ul {
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+.singleRank li .singleInfo ul li {
+	border: none;
+	padding: 0;
+	float: left;
+	width: 20px;
+}
+.singleRank li .singleInfo ul li a {
+	text-indent: -9999px;
+	display: block;
+}
+.singleRank li .singleInfo ul li .addPlayList {
+	background: url(../images/icon/index_fav.png) no-repeat scroll 0 2px transparent;
+	width: 20px;
+	height: 22px;
+}
+.singleRank li .singleInfo ul li .addFav {
+	background: url(../images/icon/index_fav.png) no-repeat scroll -19px 2px transparent;
+	width: 20px;
+	height: 22px;
+}
+.singleRank li .singleInfo ul li .share {
+	background: url(../images/icon/index_share.png) no-repeat scroll 0 0 transparent;
+	width: 20px;
+	height: 22px;
+}
+.singleRank li .play {
+	float: right;
+}
+.rank1 {
+	background: url(../images/icon/01.png) no-repeat scroll left top transparent;
+}
+.rank2 {
+	background: url(../images/icon/02.png) no-repeat scroll left top transparent;
+}
+.rank3 {
+	background: url(../images/icon/03.png) no-repeat scroll left top transparent;
+}
+.rank4 {
+	background: url(../images/icon/04.png) no-repeat scroll left top transparent;
+}
+.rank5 {
+	background: url(../images/icon/05.png) no-repeat scroll left top transparent;
+}
+.rank6 {
+	background: url(../images/icon/06.png) no-repeat scroll left top transparent;
+}
+.rank7 {
+	background: url(../images/icon/07.png) no-repeat scroll left top transparent;
+}
+.rank8 {
+	background: url(../images/icon/08.png) no-repeat scroll left top transparent;
+}
+.rank9 {
+	background: url(../images/icon/09.png) no-repeat scroll left top transparent;
+}
+.rank10 {
+	background: url(../images/icon/10.png) no-repeat scroll left top transparent;
+}
+.rankInner .showAll {
+	text-align: right;
+}
+.rankInner .showAll a {
+	color: #B70717;
+}
+.rankInner .showAll a img {
+	vertical-align: top;
+	margin-left: 5px;
+}
+.albumRank {
+	margin-left: 10px;
+	border-right: 1px solid #C9C9C9;
+	padding-right: 10px;
+}
+.albumRankTitle {
+	margin: 5px 0;
+}
+.albumRankTitle h3 {
+	float: left;
+}
+.albumRankTitle .slider {
+	float: right;
+}
+.albumRank ul {
+	margin-bottom: 10px;
+	overflow: hidden;
+	height: 1025px;
+}
+.albumRank ul li {
+	width: 173px;
+	border-bottom: 1px dotted #C9C9C9;
+	padding: 10px 0 10px 70px;
+}
+.singerRank {
+	margin-left: 10px;
+}
+.singerRankTitle {
+	margin: 5px 0;
+}
+.singerRankTitle h3 {
+	float: left;
+}
+.singerRankTitle .slider {
+	float: right;
+}
+.singerRank ul {
+	margin-bottom: 10px;
+	overflow: hidden;
+	height: 1025px;
+}
+.singerRank ul li {
+	border-bottom: 1px dotted #C9C9C9;
+	padding: 10px 0 10px 70px;
+	height: 184px;
+	width: 173px;
 }
 
 /* footer */
 #footer {
 	margin-top: 5px;
+	margin-bottom: 10px;
 }
 #footerInner {
 	width: 980px;
@@ -260,7 +484,6 @@ ul, ol, li, dd, dl, dt {
 }
 #footerInner .outLink p {
 	color: #B70717;
-	font-size: 12px;
 	font-weight: normal;
 	font-style: normal;
 	text-align: center;
@@ -272,4 +495,8 @@ ul, ol, li, dd, dl, dt {
 }
 .copyright {
 	text-align: center;
+}
+.copyright a:hover {
+	text-decoration: none;
+	color: #B70717;
 }

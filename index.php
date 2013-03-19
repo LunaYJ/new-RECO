@@ -9,6 +9,10 @@
 <script type="text/javascript" src="js/jquery-1.9.1.js" charset="utf-8" ></script>
 <script type="text/javascript" src="js/jquery.bxslider.min.js" charset="utf-8" ></script>
 <script type="text/javascript" src="js/style.js" charset="utf-8" ></script>
+<script type="text/javascript" language="javascript">
+	
+
+</script>
 </head>
 
 <body>
@@ -87,20 +91,289 @@
 						</div>
 					</div>
 					<div class="recommend">
-						<div class="recommendTitle">
+						<div class="recommendTitle clearfix">
 							<h2>新专辑推荐</h2>
-						
+<div class="slider">
+								<a href="javascript:void(0);" class="prev"><img src="images/btn/btn_prev.png" width="16" height="15" /></a>
+								<a href="javascript:void(0);" class="next"><img src="images/btn/btn_next.png" width="16" height="15" /></a>
+							</div>
 						</div>
 						<div class="recommendInner">
-							<ul class="clearfix">
+							<ul id="recommendList" class="clearfix">
 								<li>
 									<h3><a href="#"><img src="images/album/u18_normal.png" width="184" height="184" /></a></h3>
 									<h4 class="albumName">Red</h4>
 									<p><a href="#">Taylor Swift</a></p>
 								</li>
+								<li>
+									<h3><a href="#"><img src="images/album/u26_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">Barriers</h4>
+									<p><a href="#">Suede</a></p>
+								</li>
+								<li>
+									<h3><a href="#"><img src="images/album/u30_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">Color the Cover</h4>
+									<p><a href="#">倖田來未</a></p>
+								</li>
+								<li>
+									<h3><a href="#"><img src="images/album/u36_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">Everything in the World</h4>
+									<p><a href="#">曲婉婷</a></p>
+								</li>
+								<li>
+									<h3><a href="#"><img src="images/album/u40_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">Live At The Bowl '68</h4>
+									<p><a href="#">The Doors</a></p>
+								</li>
+								<li>
+									<h3><a href="#"><img src="images/album/u52_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">Bullet for My Valentine</h4>
+									<p><a href="#">Temper</a></p>
+								</li>
+								<li>
+									<h3><a href="#"><img src="images/album/u56_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">TOxxxIC</h4>
+									<p><a href="#">平野綾</a></p>
+								</li>
+								<li>
+									<h3><a href="#"><img src="images/album/u54_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">The Stand-In</h4>
+									<p><a href="#">Caitlin Rose</a></p>
+								</li>
+								<li>
+									<h3><a href="#"><img src="images/album/u58_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">You and Me</h4>
+									<p><a href="#">王若琳</a></p>
+								</li>
+								<li>
+									<h3><a href="#"><img src="images/album/u60_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">Nanobots</h4>
+									<p><a href="#">They Might Be Giants</a></p>
+								</li>
+								<li>
+									<h3><a href="#"><img src="images/album/u18_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">Red</h4>
+									<p><a href="#">Taylor Swift</a></p>
+								</li>
+								<li>
+									<h3><a href="#"><img src="images/album/u26_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">Barriers</h4>
+									<p><a href="#">Suede</a></p>
+								</li>
+								<li>
+									<h3><a href="#"><img src="images/album/u30_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">Color the Cover</h4>
+									<p><a href="#">倖田來未</a></p>
+								</li>
+								<li>
+									<h3><a href="#"><img src="images/album/u36_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">Everything in the World</h4>
+									<p><a href="#">曲婉婷</a></p>
+								</li>
+								<li>
+									<h3><a href="#"><img src="images/album/u40_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">Live At The Bowl '68</h4>
+									<p><a href="#">The Doors</a></p>
+								</li>
+								<li>
+									<h3><a href="#"><img src="images/album/u52_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">Bullet for My Valentine</h4>
+									<p><a href="#">Temper</a></p>
+								</li>
+								<li>
+									<h3><a href="#"><img src="images/album/u56_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">TOxxxIC</h4>
+									<p><a href="#">平野綾</a></p>
+								</li>
+								<li>
+									<h3><a href="#"><img src="images/album/u54_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">The Stand-In</h4>
+									<p><a href="#">Caitlin Rose</a></p>
+								</li>
+								<li>
+									<h3><a href="#"><img src="images/album/u58_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">You and Me</h4>
+									<p><a href="#">王若琳</a></p>
+								</li>
+								<li>
+									<h3><a href="#"><img src="images/album/u60_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">Nanobots</h4>
+									<p><a href="#">They Might Be Giants</a></p>
+								</li>
 							</ul>
 						</div>
 					</div>
+					<div class="rank">
+						<div class="rankTitle clearfix">
+							<h2>RECO 排行榜</h2>
+							<a href="#">分类筛选<img src="images/btn/btn_next.png" width="16" height="15" /></a>
+						</div>
+						<div class="rankInner clearfix">
+							<div class="singleRank">
+								<h3>单曲榜</h3>
+								<ul>
+									<li class="rank1">
+										<div class="singlePic">
+											<img src="images/singlesong/u87_normal.png" width="84" height="84" alt="Brand New Me - 欧阳靖"/>
+										</div>
+										<div class="singleInfo">
+											<h4 class="songName">Brand New Me</h4>
+											<p class="singer">欧阳靖</p>
+											<ul class="clearfix">
+												<li><a href="javascript:void(0);" class="addPlayList" title="加入播放列表">加入播放列表</a> </li>
+												<li><a href="javascript:void(0);" class="addFav" title="加入我的最爱">加入我的最爱</a> </li>
+												<li><a href="javascript:void(0);" class="share" title="分享">分享</a> </li>
+											</ul>
+										</div>
+										<div class="play">
+											<img src="images/btn/btn_play.jpg" width="49" height="47" />
+										</div>
+									</li>
+									<li class="rank2">
+										<div class="singlePic">
+											<img src="images/singlesong/sample_pic.png" width="84" height="84" alt="Brand New Me - 欧阳靖"/>
+										</div>
+										<div class="singleInfo">
+											<h4 class="songName">Brand New Me</h4>
+											<p class="singer">欧阳靖</p>
+											<ul class="clearfix">
+												<li><a href="javascript:void(0);" class="addPlayList" title="加入播放列表">加入播放列表</a> </li>
+												<li><a href="javascript:void(0);" class="addFav" title="加入我的最爱">加入我的最爱</a> </li>
+												<li><a href="javascript:void(0);" class="share" title="分享">分享</a> </li>
+											</ul>
+										</div>
+										<div class="play">
+											<img src="images/btn/btn_play.jpg" width="49" height="47" />
+										</div>
+									</li>
+								</ul>
+								<p class="showAll"><a href="#">完整榜单<img src="images/btn/btn_next.png" width="16" height="15" /></a></p>
+							</div>
+							<div class="albumRank">
+								<div class="albumRankTitle clearfix">
+									<h3>专辑榜</h3>
+									<div class="slider">
+										<a href="javascript:void(0);" class="prev">
+											<img src="images/btn/btn_prev.png" width="16" height="15" />
+										</a>
+										<a class="next" href="javascript:void(0);">
+											<img src="images/btn/btn_next.png" width="16" height="15" />
+										</a>
+									</div>
+								</div>
+								<ul id="albumRankList">
+									<li class="rank1">
+										<img src="images/albumrank/u89_normal.png" width="150" height="150" />
+										<h4 class="songName">Let the Meter Run</h4>
+										<p class="singer">Charlie Mars</p>
+									</li>
+									<li class="rank2">
+										<img src="images/albumrank/sample_pic.png" width="150" height="150" />
+										<h4 class="songName">Let the Meter Run</h4>
+										<p class="singer">Charlie Mars</p>
+									</li>
+									<li class="rank3">
+										<img src="images/albumrank/u89_normal.png" width="150" height="150" />
+										<h4 class="songName">Let the Meter Run</h4>
+										<p class="singer">Charlie Mars</p>
+									</li>
+									<li class="rank4">
+										<img src="images/albumrank/sample_pic.png" width="150" height="150" />
+										<h4 class="songName">Let the Meter Run</h4>
+										<p class="singer">Charlie Mars</p>
+									</li>
+									<li class="rank5">
+										<img src="images/albumrank/sample_pic.png" width="150" height="150" />
+										<h4 class="songName">Let the Meter Run</h4>
+										<p class="singer">Charlie Mars</p>
+									</li>
+									<li class="rank6">
+										<img src="images/albumrank/u89_normal.png" width="150" height="150" />
+										<h4 class="songName">Let the Meter Run</h4>
+										<p class="singer">Charlie Mars</p>
+									</li>
+									<li class="rank7">
+										<img src="images/albumrank/sample_pic.png" width="150" height="150" />
+										<h4 class="songName">Let the Meter Run</h4>
+										<p class="singer">Charlie Mars</p>
+									</li>
+									<li class="rank8">
+										<img src="images/albumrank/u89_normal.png" width="150" height="150" />
+										<h4 class="songName">Let the Meter Run</h4>
+										<p class="singer">Charlie Mars</p>
+									</li>
+									<li class="rank9">
+										<img src="images/albumrank/sample_pic.png" width="150" height="150" />
+										<h4 class="songName">Let the Meter Run</h4>
+										<p class="singer">Charlie Mars</p>
+									</li>
+									<li class="rank10">
+										<img src="images/albumrank/sample_pic.png" width="150" height="150" />
+										<h4 class="songName">Let the Meter Run</h4>
+										<p class="singer">Charlie Mars</p>
+									</li>
+								</ul>
+								<p class="showAll"><a href="#">完整榜单<img src="images/btn/btn_next.png" width="16" height="15" /></a></p>
+							</div>
+							<div class="singerRank">
+								<div class="singerRankTitle clearfix">
+									<h3>歌手榜</h3>
+									<div class="slider">
+										<a href="javascript:void(0);" class="prev">
+											<img src="images/btn/btn_prev.png" width="16" height="15" />
+										</a>
+										<a class="next" href="javascript:void(0);">
+											<img src="images/btn/btn_next.png" width="16" height="15" />
+										</a>
+									</div>
+								</div>
+								<ul id="singerRankList">
+									<li class="rank1">
+										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<h4 class="singer">王若琳</h4>
+									</li>
+									<li class="rank2">
+										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<h4 class="singer">王若琳</h4>
+									</li>
+									<li class="rank3">
+										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<h4 class="singer">王若琳</h4>
+									</li>
+									<li class="rank4">
+										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<h4 class="singer">王若琳</h4>
+									</li>
+									<li class="rank5">
+										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<h4 class="singer">王若琳</h4>
+									</li>
+									<li class="rank6">
+										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<h4 class="singer">王若琳</h4>
+									</li>
+									<li class="rank7">
+										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<h4 class="singer">王若琳</h4>
+									</li>
+									<li class="rank8">
+										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<h4 class="singer">王若琳</h4>
+									</li>
+									<li class="rank9">
+										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<h4 class="singer">王若琳</h4>
+									</li>
+									<li class="rank10">
+										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<h4 class="singer">王若琳</h4>
+									</li>
+								</ul>
+								<p class="showAll"><a href="#">完整榜单<img src="images/btn/btn_next.png" width="16" height="15" /></a></p>
+							</div>
+						</div>
+					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -109,7 +382,7 @@
 				<div class="outLink">
 					<p><a href="#">关于我们</a> - <a href="#">合作伙伴</a> - <a href="#">版权声明</a> - <a href="#">合作网站</a> - <a href="#">用户协议</a> - <a href="#">帮助中心</a></p>
 				</div>
-				<p class="copyright">沪ICP备12048358号<br />www.reco.cn</p>
+				<p class="copyright">沪ICP备12048358号<br /><a href="http://www.reco.cn">www.reco.cn</a></p>
 			</div>
 		</div>
 	</div>
