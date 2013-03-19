@@ -1,14 +1,20 @@
 @charset"utf-8";
 html, body {
-	font-family: 宋体, Heiti, 黑体, Arial;
-	font-size: 12px;
+	font-family: "Arial";
+	font-size: 13px;
 	font-weight: normal;
 	color: #333333;
+	width: 100%;
+	height: 100%;
 }
 body {
 	margin: 0;
 	padding: 0;
 	background: #EEEEEE;
+}
+h1, h2, h3, h4, h5, h6, p, a {
+	margin: 0;
+	padding: 0;
 }
 a {
 	text-decoration: none;
@@ -38,10 +44,12 @@ ul, ol, li, dd, dl, dt {
 .fr {
 	float: right;
 }
-
+#Wrapper {
+	width: 100%;
+	height: 100%;
+}
 /* header */
 #header {
-	font-family: 宋体;
 }
 #headerInner {
 	background-color: #B70717;
@@ -166,18 +174,73 @@ ul, ol, li, dd, dl, dt {
 }
 .bannerTop .bx-wrapper .bx-pager .bx-pager-link {
 	background: url(../images/icon/bannerControl.png) no-repeat scroll 0 0 transparent;
-	text-indent: 9999px;
+	text-indent: -9999px;
+	text-align: left;
 }
 .login {
 	border: 1px solid #C9C9C9;
 	border-radius: 5px;
-	width: 298px;
-	height: 241px;
+	width: 258px;
+	height: 216px;
 	background: #FFFFFF;
+	padding: 25px 20px 0;
 }
 .login dt {
 	font-size: 14px;
 	color: #333333;
+}
+.login dd input {
+	height: 32px;
+	width: 243px;
+	background: #FAFFBD;
+	border-radius: 5px;
+	border: 1px solid #333333;
+	font-size: 13px;
+	color: #99999;
+	padding-left: 10px;
+}
+.login dd {
+	margin: 10px 0 15px;
+}
+.login p input[type="submit"] {
+	background: url(../images/btn/btn_login.png) no-repeat scroll 0 0 transparent;
+	width: 69px;
+	height: 37px;
+	border: none;
+	color: #FFFFFF;
+	font-size: 14px;
+	cursor: pointer;
+}
+.login p input[type="submit"]:hover {
+	background: url(../images/btn/btn_login_hover.png) no-repeat scroll 0 0 transparent;
+}
+.login p, .login p a {
+	font-size: 14px;
+	text-decoration: none;
+}
+.login p a:hover {
+	color: #FF0000;
+}
+.login div .fl {
+	text-align: left;
+}
+.login div .fr {
+	text-align: right;
+	line-height: 38px;
+}
+.login div .fr label {
+	margin-right: 10px;
+}
+.recommend {
+	border: 1px solid #C9C9C9;
+	border-radius: 5px;
+	background: #FFFFFF;
+	margin-top: 5px;
+	padding: 10px;
+}
+.recommendTitle h2 {
+	color: #B70717;
+	font-size: 16px;
 }
 
 /* footer */
@@ -193,7 +256,7 @@ ul, ol, li, dd, dl, dt {
 	border: 1px solid #C9C9C9;
 	border-radius: 5px;
 	height: 49px;
-	
+	margin-bottom: 20px;
 }
 #footerInner .outLink p {
 	color: #B70717;

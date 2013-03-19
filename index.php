@@ -75,7 +75,30 @@
 									<dt>密码</dt>
 									<dd><input type="password" name="pwd" value="" /></dd>
 								</dl>
+								<div class="clearfix">
+									<p class="fl">
+										<input type="submit" value="登录" name="submit" />
+									</p>
+									<p class="fr">
+										<label><input type="checkbox" value="记住我" name="rememberme"/>记住我</label>															<a href="#">忘记密码？</a>
+									</p>
+								</div>
 							</form>
+						</div>
+					</div>
+					<div class="recommend">
+						<div class="recommendTitle">
+							<h2>新专辑推荐</h2>
+						
+						</div>
+						<div class="recommendInner">
+							<ul class="clearfix">
+								<li>
+									<h3><a href="#"><img src="images/album/u18_normal.png" width="184" height="184" /></a></h3>
+									<h4 class="albumName">Red</h4>
+									<p><a href="#">Taylor Swift</a></p>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
