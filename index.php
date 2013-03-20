@@ -212,54 +212,7 @@
 							<div class="singleRank">
 								<h3>单曲榜</h3>
 								<ul>
-									<li class="rank1">
-										<div class="singlePic">
-											<img src="images/singlesong/u87_normal.png" width="84" height="84" alt="Brand New Me - 欧阳靖"/>
-										</div>
-										<div class="singleInfo">
-											<h4 class="songName">Brand New Me</h4>
-											<p class="singer">欧阳靖</p>
-											<div class="playIcon">
-												<img class="playMusic" src="images/btn/btn_play.jpg" title="点击打开播放器" width="49" height="47" />
-											</div>
-											<div class="play">
-												<div id="rank1_player" class="jp-jplayer"></div>
-												<div id="jp_container_1" class="jp-audio" style="margin:10px auto">
-													<div class="jp-type-single">
-														<div class="jp-gui jp-interface">
-															<div class="fl">
-																<div class="jp-duration"></div>
-																<div class="jp-progress">
-																	<div class="jp-seek-bar">
-																		<div class="jp-play-bar"></div>
-											
-																	</div>
-																</div>
-															</div>
-															<div class="fr">
-																<ul class="jp-controls">
-																	<li><a href="javascript:;" class="jp-play" title="播放" tabindex="1">play</a></li>
-											
-																	<li><a href="javascript:;" class="jp-pause" title="暂停" tabindex="1">pause</a></li>
-																</ul>
-															</div>
-														</div>
-														
-														<div class="jp-no-solution">
-															<span>Update Required</span>
-															To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
-														</div>
-										
-													</div>
-												</div>
-											</div>
-											<ul class="clearfix">
-												<li><a href="javascript:void(0);" class="addPlayList" title="加入播放列表">加入播放列表</a> </li>
-												<li><a href="javascript:void(0);" class="addFav" title="加入我的最爱">加入我的最爱</a> </li>
-												<li><a href="javascript:void(0);" class="share" title="分享">分享</a> </li>
-											</ul>
-										</div>
-									</li>
+									
 									<li class="rank2">
 										<div class="singlePic">
 											<img src="images/singlesong/sample_pic.png" width="84" height="84" alt="Brand New Me - 欧阳靖"/>
