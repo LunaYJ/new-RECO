@@ -6,13 +6,13 @@
 <title>RECO力可</title>
 <link rel="stylesheet" href="css/style.css" media="all" charset="utf-8" type="text/css" />
 <link rel="stylesheet" href="css/jquery.bxslider.css" media="all" charset="utf-8" type="text/css" />
+<link href="css/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery-1.9.1.js" charset="utf-8" ></script>
 <script type="text/javascript" src="js/jquery.bxslider.min.js" charset="utf-8" ></script>
 <script type="text/javascript" src="js/style.js" charset="utf-8" ></script>
-<script type="text/javascript" language="javascript">
-	
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="js/jquery.jplayer.inspector.js"></script>
 
-</script>
 </head>
 
 <body>
@@ -219,14 +219,45 @@
 										<div class="singleInfo">
 											<h4 class="songName">Brand New Me</h4>
 											<p class="singer">欧阳靖</p>
+											<div class="playIcon">
+												<img class="playMusic" src="images/btn/btn_play.jpg" title="点击打开播放器" width="49" height="47" />
+											</div>
+											<div class="play">
+												<div id="rank1_player" class="jp-jplayer"></div>
+												<div id="jp_container_1" class="jp-audio" style="margin:10px auto">
+													<div class="jp-type-single">
+														<div class="jp-gui jp-interface">
+															<div class="fl">
+																<div class="jp-duration"></div>
+																<div class="jp-progress">
+																	<div class="jp-seek-bar">
+																		<div class="jp-play-bar"></div>
+											
+																	</div>
+																</div>
+															</div>
+															<div class="fr">
+																<ul class="jp-controls">
+																	<li><a href="javascript:;" class="jp-play" title="播放" tabindex="1">play</a></li>
+											
+																	<li><a href="javascript:;" class="jp-pause" title="暂停" tabindex="1">pause</a></li>
+																</ul>
+															</div>
+														</div>
+														
+														<div class="jp-no-solution">
+															<span>Update Required</span>
+															To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+														</div>
+										
+													</div>
+												</div>
+											</div>
 											<ul class="clearfix">
 												<li><a href="javascript:void(0);" class="addPlayList" title="加入播放列表">加入播放列表</a> </li>
 												<li><a href="javascript:void(0);" class="addFav" title="加入我的最爱">加入我的最爱</a> </li>
 												<li><a href="javascript:void(0);" class="share" title="分享">分享</a> </li>
 											</ul>
-										</div>
-										<div class="play">
-											<img src="images/btn/btn_play.jpg" width="49" height="47" />
 										</div>
 									</li>
 									<li class="rank2">
@@ -236,14 +267,429 @@
 										<div class="singleInfo">
 											<h4 class="songName">Brand New Me</h4>
 											<p class="singer">欧阳靖</p>
+											<div class="playIcon">
+												<img class="playMusic" src="images/btn/btn_play.jpg" title="点击打开播放器" width="49" height="47" />
+											</div>
+											<div class="play">
+												<div id="rank2_player" class="jp-jplayer"></div>
+												<div id="jp_container_2" class="jp-audio" style="margin:10px auto">
+													<div class="jp-type-single">
+														<div class="jp-gui jp-interface">
+															<div class="fl">
+																<div class="jp-duration"></div>
+																<div class="jp-progress">
+																	<div class="jp-seek-bar">
+																		<div class="jp-play-bar"></div>
+											
+																	</div>
+																</div>
+															</div>
+															<div class="fr">
+																<ul class="jp-controls">
+																	<li><a href="javascript:;" class="jp-play" title="播放" tabindex="1">play</a></li>
+											
+																	<li><a href="javascript:;" class="jp-pause" title="暂停" tabindex="1">pause</a></li>
+																</ul>
+															</div>
+														</div>
+														
+														<div class="jp-no-solution">
+															<span>Update Required</span>
+															To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+														</div>
+										
+													</div>
+												</div>
+											</div>
 											<ul class="clearfix">
 												<li><a href="javascript:void(0);" class="addPlayList" title="加入播放列表">加入播放列表</a> </li>
 												<li><a href="javascript:void(0);" class="addFav" title="加入我的最爱">加入我的最爱</a> </li>
 												<li><a href="javascript:void(0);" class="share" title="分享">分享</a> </li>
 											</ul>
 										</div>
-										<div class="play">
-											<img src="images/btn/btn_play.jpg" width="49" height="47" />
+									</li>
+									<li class="rank3">
+										<div class="singlePic">
+											<img src="images/singlesong/sample_pic.png" width="84" height="84" alt="Brand New Me - 欧阳靖"/>
+										</div>
+										<div class="singleInfo">
+											<h4 class="songName">Brand New Me</h4>
+											<p class="singer">欧阳靖</p>
+											<div class="playIcon">
+												<img class="playMusic" src="images/btn/btn_play.jpg" title="点击打开播放器" width="49" height="47" />
+											</div>
+											<div class="play">
+												<div id="rank3_player" class="jp-jplayer"></div>
+												<div id="jp_container_3" class="jp-audio" style="margin:10px auto">
+													<div class="jp-type-single">
+														<div class="jp-gui jp-interface">
+															<div class="fl">
+																<div class="jp-duration"></div>
+																<div class="jp-progress">
+																	<div class="jp-seek-bar">
+																		<div class="jp-play-bar"></div>
+											
+																	</div>
+																</div>
+															</div>
+															<div class="fr">
+																<ul class="jp-controls">
+																	<li><a href="javascript:;" class="jp-play" title="播放" tabindex="1">play</a></li>
+											
+																	<li><a href="javascript:;" class="jp-pause" title="暂停" tabindex="1">pause</a></li>
+																</ul>
+															</div>
+														</div>
+														
+														<div class="jp-no-solution">
+															<span>Update Required</span>
+															To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+														</div>
+										
+													</div>
+												</div>
+											</div>
+											<ul class="clearfix">
+												<li><a href="javascript:void(0);" class="addPlayList" title="加入播放列表">加入播放列表</a> </li>
+												<li><a href="javascript:void(0);" class="addFav" title="加入我的最爱">加入我的最爱</a> </li>
+												<li><a href="javascript:void(0);" class="share" title="分享">分享</a> </li>
+											</ul>
+										</div>
+									</li>
+									<li class="rank4">
+										<div class="singlePic">
+											<img src="images/singlesong/sample_pic.png" width="84" height="84" alt="Brand New Me - 欧阳靖"/>
+										</div>
+										<div class="singleInfo">
+											<h4 class="songName">Brand New Me</h4>
+											<p class="singer">欧阳靖</p>
+											<div class="playIcon">
+												<img class="playMusic" src="images/btn/btn_play.jpg" title="点击打开播放器" width="49" height="47" />
+											</div>
+											<div class="play">
+												<div id="rank4_player" class="jp-jplayer"></div>
+												<div id="jp_container_4" class="jp-audio" style="margin:10px auto">
+													<div class="jp-type-single">
+														<div class="jp-gui jp-interface">
+															<div class="fl">
+																<div class="jp-duration"></div>
+																<div class="jp-progress">
+																	<div class="jp-seek-bar">
+																		<div class="jp-play-bar"></div>
+											
+																	</div>
+																</div>
+															</div>
+															<div class="fr">
+																<ul class="jp-controls">
+																	<li><a href="javascript:;" class="jp-play" title="播放" tabindex="1">play</a></li>
+											
+																	<li><a href="javascript:;" class="jp-pause" title="暂停" tabindex="1">pause</a></li>
+																</ul>
+															</div>
+														</div>
+														
+														<div class="jp-no-solution">
+															<span>Update Required</span>
+															To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+														</div>
+										
+													</div>
+												</div>
+											</div>
+											<ul class="clearfix">
+												<li><a href="javascript:void(0);" class="addPlayList" title="加入播放列表">加入播放列表</a> </li>
+												<li><a href="javascript:void(0);" class="addFav" title="加入我的最爱">加入我的最爱</a> </li>
+												<li><a href="javascript:void(0);" class="share" title="分享">分享</a> </li>
+											</ul>
+										</div>
+									</li>
+									<li class="rank5">
+										<div class="singlePic">
+											<img src="images/singlesong/sample_pic.png" width="84" height="84" alt="Brand New Me - 欧阳靖"/>
+										</div>
+										<div class="singleInfo">
+											<h4 class="songName">Brand New Me</h4>
+											<p class="singer">欧阳靖</p>
+											<div class="playIcon">
+												<img class="playMusic" src="images/btn/btn_play.jpg" title="点击打开播放器" width="49" height="47" />
+											</div>
+											<div class="play">
+												<div id="rank5_player" class="jp-jplayer"></div>
+												<div id="jp_container_5" class="jp-audio" style="margin:10px auto">
+													<div class="jp-type-single">
+														<div class="jp-gui jp-interface">
+															<div class="fl">
+																<div class="jp-duration"></div>
+																<div class="jp-progress">
+																	<div class="jp-seek-bar">
+																		<div class="jp-play-bar"></div>
+											
+																	</div>
+																</div>
+															</div>
+															<div class="fr">
+																<ul class="jp-controls">
+																	<li><a href="javascript:;" class="jp-play" title="播放" tabindex="1">play</a></li>
+											
+																	<li><a href="javascript:;" class="jp-pause" title="暂停" tabindex="1">pause</a></li>
+																</ul>
+															</div>
+														</div>
+														
+														<div class="jp-no-solution">
+															<span>Update Required</span>
+															To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+														</div>
+										
+													</div>
+												</div>
+											</div>
+											<ul class="clearfix">
+												<li><a href="javascript:void(0);" class="addPlayList" title="加入播放列表">加入播放列表</a> </li>
+												<li><a href="javascript:void(0);" class="addFav" title="加入我的最爱">加入我的最爱</a> </li>
+												<li><a href="javascript:void(0);" class="share" title="分享">分享</a> </li>
+											</ul>
+										</div>
+									</li>
+									<li class="rank6">
+										<div class="singlePic">
+											<img src="images/singlesong/sample_pic.png" width="84" height="84" alt="Brand New Me - 欧阳靖"/>
+										</div>
+										<div class="singleInfo">
+											<h4 class="songName">Brand New Me</h4>
+											<p class="singer">欧阳靖</p>
+											<div class="playIcon">
+												<img class="playMusic" src="images/btn/btn_play.jpg" title="点击打开播放器" width="49" height="47" />
+											</div>
+											<div class="play">
+												<div id="rank6_player" class="jp-jplayer"></div>
+												<div id="jp_container_6" class="jp-audio" style="margin:10px auto">
+													<div class="jp-type-single">
+														<div class="jp-gui jp-interface">
+															<div class="fl">
+																<div class="jp-duration"></div>
+																<div class="jp-progress">
+																	<div class="jp-seek-bar">
+																		<div class="jp-play-bar"></div>
+											
+																	</div>
+																</div>
+															</div>
+															<div class="fr">
+																<ul class="jp-controls">
+																	<li><a href="javascript:;" class="jp-play" title="播放" tabindex="1">play</a></li>
+											
+																	<li><a href="javascript:;" class="jp-pause" title="暂停" tabindex="1">pause</a></li>
+																</ul>
+															</div>
+														</div>
+														
+														<div class="jp-no-solution">
+															<span>Update Required</span>
+															To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+														</div>
+										
+													</div>
+												</div>
+											</div>
+											<ul class="clearfix">
+												<li><a href="javascript:void(0);" class="addPlayList" title="加入播放列表">加入播放列表</a> </li>
+												<li><a href="javascript:void(0);" class="addFav" title="加入我的最爱">加入我的最爱</a> </li>
+												<li><a href="javascript:void(0);" class="share" title="分享">分享</a> </li>
+											</ul>
+										</div>
+									</li>
+									<li class="rank7">
+										<div class="singlePic">
+											<img src="images/singlesong/sample_pic.png" width="84" height="84" alt="Brand New Me - 欧阳靖"/>
+										</div>
+										<div class="singleInfo">
+											<h4 class="songName">Brand New Me</h4>
+											<p class="singer">欧阳靖</p>
+											<div class="playIcon">
+												<img class="playMusic" src="images/btn/btn_play.jpg" title="点击打开播放器" width="49" height="47" />
+											</div>
+											<div class="play">
+												<div id="rank7_player" class="jp-jplayer"></div>
+												<div id="jp_container_7" class="jp-audio" style="margin:10px auto">
+													<div class="jp-type-single">
+														<div class="jp-gui jp-interface">
+															<div class="fl">
+																<div class="jp-duration"></div>
+																<div class="jp-progress">
+																	<div class="jp-seek-bar">
+																		<div class="jp-play-bar"></div>
+											
+																	</div>
+																</div>
+															</div>
+															<div class="fr">
+																<ul class="jp-controls">
+																	<li><a href="javascript:;" class="jp-play" title="播放" tabindex="1">play</a></li>
+											
+																	<li><a href="javascript:;" class="jp-pause" title="暂停" tabindex="1">pause</a></li>
+																</ul>
+															</div>
+														</div>
+														
+														<div class="jp-no-solution">
+															<span>Update Required</span>
+															To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+														</div>
+										
+													</div>
+												</div>
+											</div>
+											<ul class="clearfix">
+												<li><a href="javascript:void(0);" class="addPlayList" title="加入播放列表">加入播放列表</a> </li>
+												<li><a href="javascript:void(0);" class="addFav" title="加入我的最爱">加入我的最爱</a> </li>
+												<li><a href="javascript:void(0);" class="share" title="分享">分享</a> </li>
+											</ul>
+										</div>
+									</li>
+									<li class="rank8">
+										<div class="singlePic">
+											<img src="images/singlesong/sample_pic.png" width="84" height="84" alt="Brand New Me - 欧阳靖"/>
+										</div>
+										<div class="singleInfo">
+											<h4 class="songName">Brand New Me</h4>
+											<p class="singer">欧阳靖</p>
+											<div class="playIcon">
+												<img class="playMusic" src="images/btn/btn_play.jpg" title="点击打开播放器" width="49" height="47" />
+											</div>
+											<div class="play">
+												<div id="rank8_player" class="jp-jplayer"></div>
+												<div id="jp_container_8" class="jp-audio" style="margin:10px auto">
+													<div class="jp-type-single">
+														<div class="jp-gui jp-interface">
+															<div class="fl">
+																<div class="jp-duration"></div>
+																<div class="jp-progress">
+																	<div class="jp-seek-bar">
+																		<div class="jp-play-bar"></div>
+											
+																	</div>
+																</div>
+															</div>
+															<div class="fr">
+																<ul class="jp-controls">
+																	<li><a href="javascript:;" class="jp-play" title="播放" tabindex="1">play</a></li>
+											
+																	<li><a href="javascript:;" class="jp-pause" title="暂停" tabindex="1">pause</a></li>
+																</ul>
+															</div>
+														</div>
+														
+														<div class="jp-no-solution">
+															<span>Update Required</span>
+															To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+														</div>
+										
+													</div>
+												</div>
+											</div>
+											<ul class="clearfix">
+												<li><a href="javascript:void(0);" class="addPlayList" title="加入播放列表">加入播放列表</a> </li>
+												<li><a href="javascript:void(0);" class="addFav" title="加入我的最爱">加入我的最爱</a> </li>
+												<li><a href="javascript:void(0);" class="share" title="分享">分享</a> </li>
+											</ul>
+										</div>
+									</li>
+									<li class="rank9">
+										<div class="singlePic">
+											<img src="images/singlesong/sample_pic.png" width="84" height="84" alt="Brand New Me - 欧阳靖"/>
+										</div>
+										<div class="singleInfo">
+											<h4 class="songName">Brand New Me</h4>
+											<p class="singer">欧阳靖</p>
+											<div class="playIcon">
+												<img class="playMusic" src="images/btn/btn_play.jpg" title="点击打开播放器" width="49" height="47" />
+											</div>
+											<div class="play">
+												<div id="rank9_player" class="jp-jplayer"></div>
+												<div id="jp_container_9" class="jp-audio" style="margin:10px auto">
+													<div class="jp-type-single">
+														<div class="jp-gui jp-interface">
+															<div class="fl">
+																<div class="jp-duration"></div>
+																<div class="jp-progress">
+																	<div class="jp-seek-bar">
+																		<div class="jp-play-bar"></div>
+											
+																	</div>
+																</div>
+															</div>
+															<div class="fr">
+																<ul class="jp-controls">
+																	<li><a href="javascript:;" class="jp-play" title="播放" tabindex="1">play</a></li>
+											
+																	<li><a href="javascript:;" class="jp-pause" title="暂停" tabindex="1">pause</a></li>
+																</ul>
+															</div>
+														</div>
+														
+														<div class="jp-no-solution">
+															<span>Update Required</span>
+															To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+														</div>
+										
+													</div>
+												</div>
+											</div>
+											<ul class="clearfix">
+												<li><a href="javascript:void(0);" class="addPlayList" title="加入播放列表">加入播放列表</a> </li>
+												<li><a href="javascript:void(0);" class="addFav" title="加入我的最爱">加入我的最爱</a> </li>
+												<li><a href="javascript:void(0);" class="share" title="分享">分享</a> </li>
+											</ul>
+										</div>
+									</li>
+									<li class="rank10">
+										<div class="singlePic">
+											<img src="images/singlesong/sample_pic.png" width="84" height="84" alt="Brand New Me - 欧阳靖"/>
+										</div>
+										<div class="singleInfo">
+											<h4 class="songName">Brand New Me</h4>
+											<p class="singer">欧阳靖</p>
+											<div class="playIcon">
+												<img class="playMusic" src="images/btn/btn_play.jpg" title="点击打开播放器" width="49" height="47" />
+											</div>
+											<div class="play">
+												<div id="rank10_player" class="jp-jplayer"></div>
+												<div id="jp_container_10" class="jp-audio" style="margin:10px auto">
+													<div class="jp-type-single">
+														<div class="jp-gui jp-interface">
+															<div class="fl">
+																<div class="jp-duration"></div>
+																<div class="jp-progress">
+																	<div class="jp-seek-bar">
+																		<div class="jp-play-bar"></div>
+											
+																	</div>
+																</div>
+															</div>
+															<div class="fr">
+																<ul class="jp-controls">
+																	<li><a href="javascript:;" class="jp-play" title="播放" tabindex="1">play</a></li>
+											
+																	<li><a href="javascript:;" class="jp-pause" title="暂停" tabindex="1">pause</a></li>
+																</ul>
+															</div>
+														</div>
+														
+														<div class="jp-no-solution">
+															<span>Update Required</span>
+															To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+														</div>
+										
+													</div>
+												</div>
+											</div>
+											<ul class="clearfix">
+												<li><a href="javascript:void(0);" class="addPlayList" title="加入播放列表">加入播放列表</a> </li>
+												<li><a href="javascript:void(0);" class="addFav" title="加入我的最爱">加入我的最爱</a> </li>
+												<li><a href="javascript:void(0);" class="share" title="分享">分享</a> </li>
+											</ul>
 										</div>
 									</li>
 								</ul>
@@ -263,52 +709,52 @@
 								</div>
 								<ul id="albumRankList">
 									<li class="rank1">
-										<img src="images/albumrank/u89_normal.png" width="150" height="150" />
+										<a href="#"><img src="images/albumrank/u89_normal.png" width="150" height="150" /></a>
 										<h4 class="songName">Let the Meter Run</h4>
 										<p class="singer">Charlie Mars</p>
 									</li>
 									<li class="rank2">
-										<img src="images/albumrank/sample_pic.png" width="150" height="150" />
+										<a href="#"><img src="images/albumrank/sample_pic.png" width="150" height="150" /></a>
 										<h4 class="songName">Let the Meter Run</h4>
 										<p class="singer">Charlie Mars</p>
 									</li>
 									<li class="rank3">
-										<img src="images/albumrank/u89_normal.png" width="150" height="150" />
+										<a href="#"><img src="images/albumrank/u89_normal.png" width="150" height="150" /></a>
 										<h4 class="songName">Let the Meter Run</h4>
 										<p class="singer">Charlie Mars</p>
 									</li>
 									<li class="rank4">
-										<img src="images/albumrank/sample_pic.png" width="150" height="150" />
+										<a href="#"><img src="images/albumrank/sample_pic.png" width="150" height="150" /></a>
 										<h4 class="songName">Let the Meter Run</h4>
 										<p class="singer">Charlie Mars</p>
 									</li>
 									<li class="rank5">
-										<img src="images/albumrank/sample_pic.png" width="150" height="150" />
+										<a href="#"><img src="images/albumrank/sample_pic.png" width="150" height="150" /></a>
 										<h4 class="songName">Let the Meter Run</h4>
 										<p class="singer">Charlie Mars</p>
 									</li>
 									<li class="rank6">
-										<img src="images/albumrank/u89_normal.png" width="150" height="150" />
+										<a href="#"><img src="images/albumrank/u89_normal.png" width="150" height="150" /></a>
 										<h4 class="songName">Let the Meter Run</h4>
 										<p class="singer">Charlie Mars</p>
 									</li>
 									<li class="rank7">
-										<img src="images/albumrank/sample_pic.png" width="150" height="150" />
+										<a href="#"><img src="images/albumrank/sample_pic.png" width="150" height="150" /></a>
 										<h4 class="songName">Let the Meter Run</h4>
 										<p class="singer">Charlie Mars</p>
 									</li>
 									<li class="rank8">
-										<img src="images/albumrank/u89_normal.png" width="150" height="150" />
+										<a href="#"><img src="images/albumrank/u89_normal.png" width="150" height="150" /></a>
 										<h4 class="songName">Let the Meter Run</h4>
 										<p class="singer">Charlie Mars</p>
 									</li>
 									<li class="rank9">
-										<img src="images/albumrank/sample_pic.png" width="150" height="150" />
+										<a href="#"><img src="images/albumrank/sample_pic.png" width="150" height="150" /></a>
 										<h4 class="songName">Let the Meter Run</h4>
 										<p class="singer">Charlie Mars</p>
 									</li>
 									<li class="rank10">
-										<img src="images/albumrank/sample_pic.png" width="150" height="150" />
+										<a href="#"><img src="images/albumrank/sample_pic.png" width="150" height="150" /></a>
 										<h4 class="songName">Let the Meter Run</h4>
 										<p class="singer">Charlie Mars</p>
 									</li>
@@ -329,43 +775,43 @@
 								</div>
 								<ul id="singerRankList">
 									<li class="rank1">
-										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<a href="#"><img src="images/singerrank/u124_normal.png" width="150" height="150" /></a>
 										<h4 class="singer">王若琳</h4>
 									</li>
 									<li class="rank2">
-										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<a href="#"><img src="images/singerrank/u124_normal.png" width="150" height="150" /></a>
 										<h4 class="singer">王若琳</h4>
 									</li>
 									<li class="rank3">
-										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<a href="#"><img src="images/singerrank/u124_normal.png" width="150" height="150" /></a>
 										<h4 class="singer">王若琳</h4>
 									</li>
 									<li class="rank4">
-										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<a href="#"><img src="images/singerrank/u124_normal.png" width="150" height="150" /></a>
 										<h4 class="singer">王若琳</h4>
 									</li>
 									<li class="rank5">
-										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<a href="#"><img src="images/singerrank/u124_normal.png" width="150" height="150" /></a>
 										<h4 class="singer">王若琳</h4>
 									</li>
 									<li class="rank6">
-										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<a href="#"><img src="images/singerrank/u124_normal.png" width="150" height="150" /></a>
 										<h4 class="singer">王若琳</h4>
 									</li>
 									<li class="rank7">
-										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<a href="#"><img src="images/singerrank/u124_normal.png" width="150" height="150" /></a>
 										<h4 class="singer">王若琳</h4>
 									</li>
 									<li class="rank8">
-										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<a href="#"><img src="images/singerrank/u124_normal.png" width="150" height="150" /></a>
 										<h4 class="singer">王若琳</h4>
 									</li>
 									<li class="rank9">
-										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<a href="#"><img src="images/singerrank/u124_normal.png" width="150" height="150" /></a>
 										<h4 class="singer">王若琳</h4>
 									</li>
 									<li class="rank10">
-										<img src="images/singerrank/u124_normal.png" width="150" height="150" />
+										<a href="#"><img src="images/singerrank/u124_normal.png" width="150" height="150" /></a>
 										<h4 class="singer">王若琳</h4>
 									</li>
 								</ul>
