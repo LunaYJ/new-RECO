@@ -50,6 +50,7 @@ ul, ol, li, dd, dl, dt {
 }
 /* header */
 #header {
+	
 }
 #headerInner {
 	background-color: #B70717;
@@ -59,6 +60,7 @@ ul, ol, li, dd, dl, dt {
 	width: 980px;
 	margin: 0 auto;
 	padding: 0 20px 0 0;
+	position: relative;
 }
 #logo {
 	float: left;
@@ -90,6 +92,7 @@ ul, ol, li, dd, dl, dt {
 .mainNavi ul li {
 	float: left;
 	margin-right: 25px;
+	position: relative;
 }
 .mainNavi ul li a {
 	color: #FFFFFF;
@@ -138,8 +141,8 @@ ul, ol, li, dd, dl, dt {
 }
 .naviArrow {
 	position: absolute;
-	top: -15px;
-	left: 545px;
+	left: 5px;
+	bottom: -19px;
 }
 
 #main {

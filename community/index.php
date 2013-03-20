@@ -1,42 +1,39 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html id="community-page" xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="X-UA-Compatible" content="IE=7">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>RECO力可</title>
-<link rel="stylesheet" href="css/style.css" media="all" charset="utf-8" type="text/css" />
-<link rel="stylesheet" href="css/jquery.bxslider.css" media="all" charset="utf-8" type="text/css" />
-<link href="css/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="js/jquery-1.9.1.js" charset="utf-8" ></script>
-<script type="text/javascript" src="js/jquery.bxslider.min.js" charset="utf-8" ></script>
-<script type="text/javascript" src="js/style.js" charset="utf-8" ></script>
-<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
-<script type="text/javascript" src="js/jquery.jplayer.inspector.js"></script>
+<link rel="stylesheet" href="../css/style.css" media="all" charset="utf-8" type="text/css" />
+<link rel="stylesheet" href="../css/jquery.bxslider.css" media="all" charset="utf-8" type="text/css" />
+<script type="text/javascript" src="../js/jquery-1.9.1.js" charset="utf-8" ></script>
+<script type="text/javascript" src="../js/jquery.bxslider.min.js" charset="utf-8" ></script>
+<script type="text/javascript" src="../js/style.js" charset="utf-8" ></script>
 
 </head>
 
-<body>
+<body class="welcomePage">
 	<div id="Wrapper">
 		<div id="header">
 			<div id="headerInner">
 				<div id="head" class="clearfix">
 					<h1 id="logo">
-						<a href="/"><img src="images/logo.png" width="150" height="57" alt="RECO" /></a>
+						<a href="/"><img src="../images/logo.png" width="150" height="57" alt="RECO" /></a>
 					</h1>
 					<div class="searchArea">
 						<form name="search" method="get" action="?">
 							<input type="text" placeholder="搜索音乐、话题或人..." value="" />
-							<input type="image" value="确认" src="images/icon/search_icon.png" width="21" />
+							<input type="image" value="确认" src="../images/icon/search_icon.png" width="21" />
 						</form>
 					</div>
 					<div class="mainNavi">
 						<ul class="clearfix">
-							<li class="music current"><a href="javascript:void(0);">音乐</a>
+							<li class="music"><a href="javascript:void(0);">音乐</a></li>
+							<li class="community"><a href="javascript:void(0);">社区</a>
 								<span class="naviArrow">
-									<img src="images/icon/arrow.png" />
+									<img src="../images/icon/arrow.png" />
 								</span>
-							</li>
-							<li class="community"><a href="javascript:void(0);">社区</a></li>
+						</li>
 						</ul>
 					</div>
 					<div id="regist">
