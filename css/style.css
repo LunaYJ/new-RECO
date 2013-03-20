@@ -4,8 +4,6 @@ html, body {
 	font-size: 13px;
 	font-weight: normal;
 	color: #333333;
-	width: 100%;
-	height: 100%;
 }
 body {
 	margin: 0;
@@ -45,8 +43,6 @@ ul, ol, li, dd, dl, dt {
 	float: right;
 }
 #Wrapper {
-	width: 100%;
-	height: 100%;
 }
 /* header */
 #header {
@@ -99,11 +95,11 @@ ul, ol, li, dd, dl, dt {
 	font-size: 16px;
 	font-weight: bold;
 }
-#regist {
+#head #regist, #head #login {
 	float: right;
 	margin-top: 22px;
 }
-#regist a {
+#head #regist a, #head #login a {
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: bold;
@@ -111,7 +107,7 @@ ul, ol, li, dd, dl, dt {
 
 /* content */
 #content {
-	margin-top: 5px;
+	border-top: 5px solid #D7D7D7;
 }
 #topNavi li {
 	float: left;
@@ -142,7 +138,7 @@ ul, ol, li, dd, dl, dt {
 .naviArrow {
 	position: absolute;
 	left: 5px;
-	bottom: -19px;
+	bottom: -21px;
 }
 
 #main {
@@ -542,6 +538,27 @@ ul, ol, li, dd, dl, dt {
 .playMusic {
 	cursor: pointer;
 }
+#contentInner .move {
+	position: fixed;
+	top: 40%;
+	right: 4px;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	background: #FFFFFF;
+}
+#contentInner .move a {
+	display: block;
+	text-indent: -9999px;
+	overflow: hidden;
+	width: 51px;
+	height: 33px;
+}
+#contentInner .move .moveTop {
+	background: url(../images/btn/shangxia.png) no-repeat scroll 0 0 transparent;
+}
+#contentInner .move .moveBottom {
+	background: url(../images/btn/shangxia.png) no-repeat scroll 0 -30px transparent;
+}
 
 /* footer */
 #footer {
@@ -576,4 +593,196 @@ ul, ol, li, dd, dl, dt {
 .copyright a:hover {
 	text-decoration: none;
 	color: #B70717;
+}
+
+/* community */
+.manifesto {
+	border: 1px solid #C9C9C9;
+	border-radius: 5px;
+	height: 532px;
+	background: #FFFFFF;
+}
+.manifesto table {
+	width: 100%;
+	height: 100%;
+}
+.manifesto td {
+	text-align: center;
+}
+.joinCommunity {
+	margin-top: 5px;
+}
+.promotion {
+	width: 653px;
+	border: 1px solid #C9C9C9;
+	background: #FFFFFF;
+	padding: 10px;
+	border-radius: 5px;
+	height: 221px;
+}
+.promotion h2 {
+	color: #BC1725;
+	font-size: 20px;
+	float: left;
+}
+.promotion a:hover {
+	text-decoration: none;
+}
+.promotion a input {
+	color: #FFFFFF;
+	background: #B81617;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	font-size: 14px;
+	width: 77px;
+	height: 25px;
+	cursor: pointer;
+}
+.promotion a input:hover {
+	background: #DB1C1F;
+}
+.promotion .nowUser {
+	position: relative;
+	margin-top: 25px;
+}
+.promotion .nowUser .next, .promotion .nowUser .prev {
+	position: absolute;
+	text-indent: -9999px;
+	width: 33px;
+	height: 51px;
+	display: block;
+	top: 30%;
+}
+.promotion .nowUser .prev {
+	background: url(../images/community/arrow_left.png) no-repeat scroll 0 0 transparent;
+	left: 0;
+}
+.promotion .nowUser .prev:hover {
+	background: url(../images/community/arrow_left_hover.png) no-repeat scroll 0 0 transparent;
+}
+.promotion .nowUser .next {
+	background: url(../images/community/arrow_right.png) no-repeat scroll 0 0 transparent;
+	right: 0;
+}
+.promotion .nowUser .next:hover {
+	background: url(../images/community/arrow_right_hover.png) no-repeat scroll 0 0 transparent;
+}
+.promotion .nowUser .listShow {
+	overflow: hidden;
+	width: 576px;
+	margin: auto;
+}
+.promotion .nowUser ul {
+	width: 99999px;
+}
+.promotion .nowUser ul li {
+	float: left;
+	margin: 0 7px;
+	line-height: 25px;
+}
+.registWrap {
+	background: #FFFFFF;
+	border: 1px solid #C9C9C9;
+	border-radius: 5px;
+	padding: 15px 0;
+}
+.registWrap h1 {
+	color: #333333;
+	font-size: 3em;
+	border-bottom: 1px solid #C9C9C9;
+	padding-left: 20px;
+	padding-bottom: 15px;
+}
+.registInner {
+	padding: 50px 100px;
+}
+.registInner form dt {
+	font-size: 14px;
+	font-weight: bold;
+}
+.registInner form .error {
+	color: #B70717;
+	font-weight: bold;
+	font-size: 14px;
+	display: none;
+}
+.registInner form dd {
+	margin: 10px 0 15px;
+}
+.registInner form dd input {
+	border: 1px solid #333333;
+	border-radius: 5px;
+	color: #999999;
+	background: #FAFFBD;
+	height: 32px;
+	width: 243px;
+	padding-left: 10px;
+	font-size: 13px;
+}
+.registInner form .confirmCode {
+	border: 1px solid #333333;
+	background: #FAFFBD;
+	padding: 10px 10px 10px 10px;
+	color: #999999;
+	margin-top: 10px;
+}
+.registInner form .confirmCode input[type="text"] {
+	width: 91px;
+	height: 26px;
+	border: 1px solid #333333;
+}
+.registInner form .confirmCode a {
+	color: #999999;
+}
+.registInner form .confirmCode a:hover {
+	color: #B70717;
+}
+.registInner form .confirmCode img {
+	vertical-align: middle;
+}
+.registInner form p a {
+	color: #B70717;
+}
+.registInner form .registNow {
+	background: #B81617;
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	width: 81px;
+	height: 31px;
+	font-weight: bold;
+}
+.registInner form .registNow:hover {
+	background: #DB1C1F;
+}
+
+.socialRegist ul {
+	width: 214px;
+	margin-top: 10px;
+}
+.socialRegist li {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.socialRegist li a {
+	width: 87px;
+	height: 27px;
+	display: block;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+.socialRegist .sina a {
+	background: url(../images/socialIcon/u85_normal.png) no-repeat scroll 0 0 transparent;
+}
+.socialRegist .renren a {
+	background: url(../images/socialIcon/u85_normal.png) no-repeat scroll -104px 0 transparent;
+}
+.socialRegist .qq a {
+	background: url(../images/socialIcon/qq.png) no-repeat scroll 0 0 transparent;
+}
+.socialRegist .baidu a {
+	background: url(../images/socialIcon/baidu.png) no-repeat scroll 0 0 transparent;
 }

@@ -12,6 +12,7 @@
 <script type="text/javascript" src="js/style.js" charset="utf-8" ></script>
 <script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
 <script type="text/javascript" src="js/jquery.jplayer.inspector.js"></script>
+<script type="text/javascript" src="js/addsong.js"></script>
 
 </head>
 
@@ -31,22 +32,26 @@
 					</div>
 					<div class="mainNavi">
 						<ul class="clearfix">
-							<li class="music current"><a href="javascript:void(0);">音乐</a>
+							<li class="music current"><a href="/">音乐</a>
 								<span class="naviArrow">
 									<img src="images/icon/arrow.png" />
 								</span>
 							</li>
-							<li class="community"><a href="javascript:void(0);">社区</a></li>
+							<li class="community"><a href="/community">社区</a></li>
 						</ul>
 					</div>
 					<div id="regist">
-						<a href="javascript:void(0);">注册新账号</a>
+						<a href="/community/regist.php">注册新账号</a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div id="content">
 			<div id="contentInner">
+				<div class="move">
+					<a href="javascript:void(0)" class="moveTop">Top</a>
+					<a href="javascript:void(0)" class="moveBottom">Bottom</a>
+				</div>
 				<div id="topNavi">
 					<div class="topNaviInner">
 						
@@ -821,7 +826,6 @@
 							</div>
 						</div>
 					</div>
-					
 				</div>
 			</div>
 		</div>
