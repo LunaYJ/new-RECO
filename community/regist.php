@@ -29,7 +29,7 @@
 					<div class="mainNavi">
 						<ul class="clearfix">
 							<li class="music"><a href="/">音乐</a></li>
-							<li class="community"><a href="/community">社区</a>
+							<li class="community current"><a href="/community">社区</a>
 								<span class="naviArrow">
 									<img src="../images/icon/arrow.png" />
 								</span>
