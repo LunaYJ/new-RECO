@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 table, td, tr, th {
 	border: none;
+	border-collapse: collapse;
+}
+table {
+	width: 100%;
 }
 a {
 	text-decoration: none;
@@ -47,6 +51,24 @@ ul, ol, li, dd, dl, dt {
 }
 #Wrapper {
 }
+.mainNavi li span {
+	display: none;
+}
+.mainNavi .current span {
+	display: block;
+}
+#lean_overlay {
+    position: fixed;
+    z-index: 10000;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+
 /* header */
 #header {
 	
@@ -606,7 +628,6 @@ ul, ol, li, dd, dl, dt {
 	background: #FFFFFF;
 }
 .manifesto table {
-	width: 100%;
 	height: 100%;
 }
 .manifesto td {
@@ -799,16 +820,16 @@ ul, ol, li, dd, dl, dt {
 }
 #myAccountTool div {
 /* 	display: inline-block; */
-	margin-left: 15px;
+/* 	margin-left: 15px; */
 	float: left;
-	text-align: right;
+	text-align: center;
 	height: 100%;
-	width: 24px;
+	width: 40px;
 }
 #myAccountTool div a {
 	vertical-align: super;
 	color: #FFFFFF;
-	font-size: 14px;
+	font-size: 12px;
 }
 #myAccountTool .myMail .mailIcon {
 	vertical-align: super;
@@ -832,6 +853,7 @@ ul, ol, li, dd, dl, dt {
 	float: none;
 	height: 16px;
 	padding: 5px 10px 5px;
+	text-align: left;
 }
 #myAccountTool ul li:hover {
 	border-bottom: 1px solid #000000;
@@ -871,13 +893,15 @@ ul, ol, li, dd, dl, dt {
 	height: 35px;
 }
 .myMail ul {
-	right: 95px;
+	right: 85px;
 }
 .myLink ul {
-	right: 60px;
+	right: 50px;
 }
-.homeMain {
+#main.homeMain {
 	border: 1px solid #C9C9C9;
+	margin: 0 auto;
+	position: relative;
 }
 .newsInner {
 	border-right: 1px solid #C9C9C9;
@@ -896,7 +920,7 @@ ul, ol, li, dd, dl, dt {
 }
 .writeNews {
 	width: 629px;
-	height: 209px;
+/* 	height: 209px; */
 	padding: 34px;
 }
 .writeNews textarea {
@@ -924,6 +948,7 @@ ul, ol, li, dd, dl, dt {
 }
 .addFn {
 	margin-left: 30px;
+	position: relative;
 }
 .addFn a {
 	color: #666666;
@@ -973,9 +998,10 @@ ul, ol, li, dd, dl, dt {
 }
 .uploadImgDiv {
 	position: absolute;
-	left: 570px;
-	top: 285px;
+	left: 31px;
+	top: -6px;
 	display: none;
+	width: 250px;
 }
 .uploadImgDiv .uploadTitle {
 	border: 1px solid #C9C9C9;
@@ -986,7 +1012,17 @@ ul, ol, li, dd, dl, dt {
 	position: relative;
 	width: 65px;
 	display: block;
-	height: 29px;
+	height: 24px;
+	color: #666666;
+	text-align: center;
+	padding-top: 5px;
+}
+.uploadImgDiv .uploadbutton p {
+	color: #666666;
+	font-size: 12px;
+}
+.uploadImgDiv .uploadTitle img {
+	vertical-align: bottom;
 }
 .uploadImgDiv .uploadbutton {
 	border: 1px solid #C9C9C9;
@@ -1010,7 +1046,175 @@ ul, ol, li, dd, dl, dt {
 	cursor: pointer;
 }
 .uploadbutton table {
-	width: 100%;
 	text-align: center;
 	margin-bottom: 20px;
+}
+.allNews {
+	background: #FFFFFF;
+	width: 629px;
+	padding: 34px;
+}
+.allNews .newsContent .username img {
+	vertical-align: bottom;
+}
+.allNews .newsContent .username h3 {
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+.allNews .newsContent {
+	width: 545px;
+}
+.allNews .newsContent .usernews p {
+	line-height: 25px;
+}
+.newsFeed .usernews .red {
+	color: #C00000;
+}
+.newsFeed {
+	border-bottom: 1px solid #C9C9C9;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.newsFeed .usernews p .overlim {
+	display: none;
+}
+.uploadImgDivArea {
+	position: relative;
+}
+
+.myAccount {
+	border: 1px solid #C9C9C9;
+	border-radius: 5px;
+	background: #FFFFFF;
+	padding: 10px;
+}
+.myAccount h2 {
+	color: #B70717;
+	font-size: 16px;
+	font-weight: normal;
+	border-bottom: 1px solid #C9C9C9;
+	padding-bottom: 5px;
+}
+.myAccount ul {
+	border-bottom: 1px solid #C9C9C9;
+	padding: 0 20px;
+	margin: 30px 0;
+}
+.myAccount ul li {
+	float: left;
+	padding: 5px 10px 3px;
+	background: #CCCCCC;
+}
+.myAccount ul li:hover, .myAccount ul .current {
+	background: #C00000;
+}
+.myAccount ul li:hover a, .myAccount ul .current a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.accountInner {
+	padding: 0 20px;
+	margin-bottom: 50px;
+}
+.accountInfo {
+	margin-left: 20px;
+}
+.accountInfo .mysum {
+	color: #C00000;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: "Heiti SC", 黑体;
+}
+.accountInfo table td, .accountInfo table th {
+	text-align: left;
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+.accountInfo .spend {
+	text-decoration: none;
+}
+.accountInfo .spend input {
+	background: url(../images/btn/bg_spend.png) no-repeat scroll 0 0 transparent;
+	border: none;
+	width: 90px;
+	height: 37px;
+	font-size: 14px;
+	cursor: pointer;
+}
+.accountInfo .spend input:hover {
+	background: url(../images/btn/bg_spend_hover.png) no-repeat scroll 0 0 transparent;
+	color: #FFFFFF;
+}
+
+.accountInner .gray {
+	background: #EEEEEE;
+}
+.accountInner .myorder table, .accountInner .mycart table {
+	width: 80%;
+}
+.accountInner .myorder th, .accountInner .mycart th {
+	color: #999999;
+	font-weight: normal;
+}
+.accountInner .myorder th, .accountInner .myorder td, .accountInner .mycart td, .accountInner .mycart th {
+	text-align: center;
+	border-bottom: 1px solid #C9C9C9;
+	padding: 10px 0;
+}
+.accountInner .myorder, .accountInner .mycart {
+	border-bottom: 1px solid #C9C9C9;
+	padding-bottom: 30px;
+}
+.accountInner .pager {
+	margin-top: 30px;
+}
+.accountInner .pager p {
+	text-align: center;
+}
+
+.accountInner .pager p a {
+	border: 1px solid #C9C9C9;
+	padding: 5px;
+	color: #C00000;
+	margin: 0 5px 0 0;
+}
+.accountInner .pager p a:hover {
+	color: #FFFFFF;
+	background: #C00000;
+	text-decoration: none;
+}
+.accountInner .pager p .current {
+	background: #EEEEEE;
+	color: #666666;
+}
+#orderDetail {
+	background: #FFFFFF;
+	display: none;
+	width: 734px;
+	box-shadow: 0 0 4px rgba(0,0,0,0.7);
+	top: 275px!important;
+}
+#orderDetail .detailTitle {
+	background: #C00000;
+	padding: 5px 10px;
+}
+#orderDetail .detailTitle h3 {
+	color: #FFFFFF;
+	font-size: 14px;
+}
+#orderDetail .detailInner {
+	padding: 20px;
+}
+#orderDetail .detailInner table td {
+	text-align: center;
+	padding: 5px;
+}
+.accountInner .mycart .textLeft {
+	text-align: left;
+	padding-left: 10px;
+	width: 40%;
+}
+.accountInner .mycart table .num {
+	margin: 0 5px;
 }

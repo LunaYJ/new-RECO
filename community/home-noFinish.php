@@ -12,6 +12,10 @@
 
 </head>
 
+
+<!--  								未完成此页        					          -->
+
+
 <body class="homePage">
 	<div id="Wrapper">
 		<div id="header">
@@ -38,7 +42,7 @@
 					</div>
 					<div id="myAccountTool">
 						<div class="cart">
-							<a class="myCart" href="javascript:void(0)"><img src="../images/icon/sample_avatar_small.png" width="24" height="24" alt="购物车" title="购物车" /></a>
+							<a class="myCart" href="/mypage/mycart.php"><img src="../images/icon/sample_avatar_small.png" width="24" height="24" alt="购物车" title="购物车" /></a>
 						</div>
 						<div class="myMail">
 							<a class="myMailOpen" href="javascript:void(0)"><img src="../images/icon/sample_avatar_small.png" width="24" height="24" alt="消息" title="信息中心" /></a>
@@ -58,7 +62,7 @@
 							<a class="myLinkOpen" href="javascript:void(0)"><img src="../images/icon/sample_avatar_small.png" width="24" height="24" alt="用户名" title="用户名" /></a>
 							<ul>
 								<li><a href="#">我的页面</a></li>
-								<li><a href="#">我的账户</a></li>
+								<li><a href="/mypage/account.php">我的账户</a></li>
 								<li class="separat"><a href="#">设置中心</a></li>
 								<li><a href="#">退出</a></li>
 							</ul>
@@ -97,6 +101,20 @@
 										<div class="fl addFn">
 											<a class="face" href="javascript:void(0)">表情</a>
 											<a class="uploadImg" href="javascript:void(0)"><img src="../images/icon/sample_uploadimg.png" width="20" height="20" /> 照片</a>	
+											<div class="uploadImgDiv">
+												<div>
+													<span class="uploadTitle"><img src="../images/icon/sample_uploadimg.png" width="20" height="20" /> 照片</span>
+												</div>
+												<div class="uploadbutton">
+													<a href="javascript:void(0)" class="close"><img src="../images/icon/popup_close.png" width="20" height="20" /></a>
+													<table>
+														<tr>
+															<td><input type="button" onclick="uploadImgfile.click()" value="添加图片" /><form action="?" method="post"><input name="uploadImgfile" id="uploadImgfile" type="file" /></form></td>
+														</tr>
+													</table>
+													<p>支持上传单张2M以下的gif、jpg、png文件</p>
+												</div>
+											</div>
 										</div>
 										<div class="btn_area fr">
 											<span class="pubarea">
@@ -120,10 +138,36 @@
 								<div class="newsFeed">
 									<div class="clearfix">
 										<div class="fl userAvatar">
-											<img src="../images/avatar/u282_normal.png" width="" height="" />
+											<img src="../images/avatar/u282_normal.png" width="60" height="60" />
 										</div>
 										<div class="fr newsContent">
-											<div class="username">用户名A <img src="../images/icon/sample_uploadimg.png" width="20" height="20" /></div>
+											<div class="username"><h3>用户名A <img src="../images/icon/sample_uploadimg.png" width="20" height="20" /></h3></div>
+											<div class="usernews">
+												<p>文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="newsFeed">
+									<div class="clearfix">
+										<div class="fl userAvatar">
+											<img src="../images/avatar/sample_avatar.png" width="60" height="60" />
+										</div>
+										<div class="fr newsContent">
+											<div class="username"><h3>用户自己 <img src="../images/icon/sample_uploadimg.png" width="20" height="20" /></h3></div>
+											<div class="usernews">
+												<p>文字长度4行内，闲聊只能插入1张图……文字长度4行内文字长度4行内，闲聊只能插入1张图……文字长度4行内文字长度4行内，闲聊只能插入1张图……文字长度4行内文字长度4行内，闲聊只能插入1张图……文字长度4行内文字长度4行内，闲聊只能插入1张图……文字长度4行内文字长度4行内，闲聊</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="newsFeed">
+									<div class="clearfix">
+										<div class="fl userAvatar">
+											<img src="../images/avatar/sample_avatar.png" width="60" height="60" />
+										</div>
+										<div class="fr newsContent">
+											<div class="username"><h3>用户名A <img src="../images/icon/sample_uploadimg.png" width="20" height="20" /></h3></div>
 											<div class="usernews">
 												<p>文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……文字长度4行内，闲聊只能插入1张图……</p>
 											</div>
@@ -137,6 +181,7 @@
 							
 						</div>
 					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -149,19 +194,6 @@
 			</div>
 		</div>
 	</div>
-	<div class="uploadImgDiv">
-		<div>
-			<span class="uploadTitle">&nbsp;</span>
-		</div>
-		<div class="uploadbutton">
-			<a href="javascript:void(0)" class="close"><img src="../images/icon/popup_close.png" width="20" height="20" /></a>
-			<table>
-				<tr>
-					<td><input type="button" onclick="uploadImgfile.click()" value="添加图片" /><form action="?" method="post"><input name="uploadImgfile" id="uploadImgfile" type="file" /></form></td>
-				</tr>
-			</table>
-			<p>支持上传单张2M以下的gif、jpg、png文件</p>
-		</div>
-	</div>
+	
 </body>
 </html>

@@ -46,6 +46,37 @@ $(function(){
 		$(".uploadImgDiv").show();
 	});
 	
+	$('a[rel*=leanModal]').leanModal({ top : 200, closeButton: ".modal_close" }); 
+	
+/* 	社区文字超出4行显示“...”并添加查看全部 */
+	$(".newsContent .usernews p").each(function(){
+		var newslength = $(this).html().length;
+		var overlim = $(this).html().substring(160, newslength);
+		//alert(overlim);
+		var newslim = 173;
+		if (newslength > newslim){
+			$(this).html($(this).html().substring(0, 160)+ "<span class='over'>……</span>");
+			$(this).append("<span class='overlim'>"+overlim+"</span>");
+			$(this).append("&nbsp;&nbsp;&nbsp;&nbsp;<span class='seeAll'><a class='red' href='javascript:void(0)'>展开全部>></a></span>");
+			
+			$(this).find(".seeAll").click(function(){
+				$(this).parent().find(".over").toggle();
+				var seeAll = $(this).parent().find(".seeAll");
+				if(seeAll.text() == "展开全部>>"){
+					seeAll.html("<a class='red' href='javascript:void(0)'>收起</a>");
+				}else{
+					seeAll.html("<a class='red' href='javascript:void(0)'>展开全部>></a>");
+				};
+				$(this).parent().find(".overlim").toggle();
+			});
+		};
+		
+	});
+	
+	
+	
+	
+	
 /* 	新鲜事发布选项 */
 	$(".selectPub").click(function(event){
 		$(".pubOption").show();

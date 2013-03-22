@@ -33,7 +33,7 @@
 								<span class="naviArrow">
 									<img src="../images/icon/arrow.png" />
 								</span>
-						</li>
+							</li>
 						</ul>
 					</div>
 					<div id="regist">
