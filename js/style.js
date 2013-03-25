@@ -157,5 +157,22 @@ $(function(){
 	})
 	$(".nowUser #userList ul").width(userListWidth);
 	
+	
+
 })
+/* 	全选 and 反选 */
+
+	function selectAll()
+	{
+		var a = document.getElementsByName("checked");
+		
+			for (var i=0; i<a.length; i++)
+			if (a[i].type == "checkbox") a[i].checked = true;
+	} 
+	function selectOthers()
+	{
+		var a = document.getElementsByName("checked");
+		for(var i=0; i<a.length; i++)
+		if(a[i].type == "checkbox") a[i].checked =!a[i].checked;
+	} 
 //]]>

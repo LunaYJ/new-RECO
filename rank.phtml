@@ -4,45 +4,45 @@
 <meta http-equiv="X-UA-Compatible" content="IE=7">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>RECO力可</title>
-<link rel="stylesheet" href="../css/style.css" media="all" charset="utf-8" type="text/css" />
-<script type="text/javascript" src="../js/jquery-1.9.1.js" charset="utf-8" ></script>
-<script type="text/javascript" src="../js/jquery.bxslider.min.js" charset="utf-8" ></script>
-<script type="text/javascript" src="../js/style.js" charset="utf-8" ></script>
+<link rel="stylesheet" href="css/style.css" media="all" charset="utf-8" type="text/css" />
+<link rel="stylesheet" href="css/jquery.bxslider.css" media="all" charset="utf-8" type="text/css" />
+<link href="css/jplayer.blue.monday.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.9.1.js" charset="utf-8" ></script>
+<script type="text/javascript" src="js/jquery.bxslider.min.js" charset="utf-8" ></script>
+<script type="text/javascript" src="js/style.js" charset="utf-8" ></script>
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="js/jquery.jplayer.inspector.js"></script>
+<script type="text/javascript" src="js/addsong.js"></script>
 
 </head>
 
-<body class="accountPage">
+<body class="rankpage">
 	<div id="Wrapper">
 		<div id="header">
 			<div id="headerInner">
 				<div id="head" class="clearfix">
 					<h1 id="logo">
-						<a href="/"><img src="../images/logo.png" width="150" height="57" alt="RECO" /></a>
+						<a href="/"><img src="images/logo.png" width="150" height="57" alt="RECO" /></a>
 					</h1>
 					<div class="searchArea">
 						<form name="search" method="get" action="?">
 							<input type="text" placeholder="搜索音乐、话题或人..." value="" />
-							<input type="image" value="确认" src="../images/icon/search_icon.png" width="21" />
+							<input type="image" value="确认" src="images/icon/search_icon.png" width="21" />
 						</form>
 					</div>
 					<div class="mainNavi">
 						<ul class="clearfix">
-							<li class="music current"><a href="/">音乐</a>
+							<li class="music current"><a href="/index.phtml">音乐</a>
 								<span class="naviArrow">
-									<img src="../images/icon/arrow.png" />
+									<img src="images/icon/arrow.png" />
 								</span>
 							</li>
-							<li class="community">
-								<a href="/community">社区</a>
-								<span class="naviArrow">
-									<img src="../images/icon/arrow.png" />
-								</span>
-							</li>
+							<li class="community"><a href="/community/index.phtml">社区</a></li>
 						</ul>
 					</div>
 					<div id="myAccountTool">
 						<div class="cart">
-							<a class="myCart" href="/mypage/mycart.php"><img src="../images/icon/sample_avatar_small.png" width="24" height="24" alt="购物车" title="购物车" /></a>
+							<a class="myCart" href="/mypage/mycart.phtml"><img src="../images/icon/sample_avatar_small.png" width="24" height="24" alt="购物车" title="购物车" /></a>
 						</div>
 						<div class="myMail">
 							<a class="myMailOpen" href="javascript:void(0)"><img src="../images/icon/sample_avatar_small.png" width="24" height="24" alt="消息" title="信息中心" /></a>
@@ -62,11 +62,12 @@
 							<a class="myLinkOpen" href="javascript:void(0)"><img src="../images/icon/sample_avatar_small.png" width="24" height="24" alt="用户名" title="用户名" /></a>
 							<ul>
 								<li><a href="#">我的页面</a></li>
-								<li><a href="/mypage/account.php">我的账户</a></li>
+								<li><a href="/mypage/account.phtml">我的账户</a></li>
 								<li class="separat"><a href="#">设置中心</a></li>
 								<li><a href="#">退出</a></li>
 							</ul>
 						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -81,46 +82,24 @@
 					<div class="topNaviInner">
 						
 						<ul class="clearfix">
-							<li class=""><a href="javascript:void(0);">首页</a></li>
-							<li><a href="javascript:void(0);">排行榜</a></li>
+							<li class=""><a href="/home.phtml">首页</a></li>
+							<li class="current"><a href="rank.phtml">排行榜</a></li>
 							<li><a href="javascript:void(0);">分类浏览</a></li>
 							<li><a href="javascript:void(0);">我的音乐</a></li>
-							<li><a href="javascript:void(0);">管理</a></li>
 						</ul>
 					</div>
 				</div>
-				<div id="main">					
-					<div class="myAccount">
-						<h2>账户</h2>
-						<ul class="clearfix">
-							<li class="current"><a href="/mypage/account.php">我的账户</a></li>
-							<li class=""><a href="/mypage/orderform.php">我的订单</a></li>
-							<li class=""><a href="/mypage/cart.phtml">购物车</a></li>
-							<li class=""><a href="/mypage/recharge.phtml">账户充值</a></li>
-						</ul>
-						<div class="accountInner clearfix">
-							<div class="fl myAvatar">
-								<img src="../images/avatar/sample_myavatar.png" width="90" height="90" alt="user name" />
-							</div>
-							<div class="fl accountInfo">
-								<table>
-									<tr>
-										<th>用户名：</th>
-										<td>user name</td>
-									</tr>
-									<tr>
-										<th>账号：</th>
-										<td>E-mail</td>
-									</tr>
-									<tr>
-										<th>余额：</th>
-										<td>￥ <span class="mysum">102.80</span></td>
-									</tr>
-								</table>
-								<a class="spend" href="/mypage/recharge.phtml"><input type="button" value="充值" /></a>
-							</div>
+				<div id="main">
+					<div id="rankInner">
+						<div class="ranktitle clearfix">
+							<h2>RECO排行榜 <span class="subtitle">2013年第11周</span></h2>
+							<span class="count">显示前<span class="countsum">100</span>位</span>
+						</div>
+						<div class="cate">
+							
 						</div>
 					</div>
+					
 				</div>
 			</div>
 		</div>

@@ -1103,8 +1103,11 @@ ul, ol, li, dd, dl, dt {
 }
 .myAccount ul li {
 	float: left;
-	padding: 5px 10px 3px;
 	background: #CCCCCC;
+}
+.myAccount ul li a {
+	display: block;
+	padding: 5px 10px 3px;
 }
 .myAccount ul li:hover, .myAccount ul .current {
 	background: #C00000;
@@ -1217,4 +1220,134 @@ ul, ol, li, dd, dl, dt {
 }
 .accountInner .mycart table .num {
 	margin: 0 5px;
+}
+.myAccount .selectControl ul {
+	border: none;
+	padding: 0;
+}
+.myAccount .selectControl li {
+	background: none;
+	border: 1px solid #C9C9C9;
+	margin-right: 10px;
+}
+.myAccount .selectControl li a {
+	display: block;
+	padding: 5px 10px 3px;
+}
+.myrecharge input[type="text"] {
+	width: 59px;
+	height: 17px;
+}
+.myrecharge dd img, .myrecharge .method input[type="radio"] {
+	vertical-align: middle;
+}
+.myrecharge .myInfo {
+	border-bottom: 1px solid #C9C9C9;
+	padding: 10px 95px;
+}
+.myrecharge .myInfo table {
+	text-align: left;
+	width: auto;
+	font-size: 14px;
+}
+.myrecharge .myInfo table .mysum {
+	color: #C00000;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Heiti SC";
+}
+.myrecharge .myInfo table th, .myrecharge .myInfo table td{
+	padding: 10px 10px 10px 0;
+}
+.myrecharge .rechargeInner {
+	padding: 20px 95px;
+}
+.rechargeInner dd {
+	margin: 10px 0 20px;
+}
+.rechargeInner .totalsum {
+	color: #C00000;
+	font-weight: bold;
+	font-family: "Heiti SC";
+}
+.rechargeInner input[type="submit"] {
+	background: #C00000;
+	border: none;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-size: 14px;
+	width: 84px;
+	height: 31px;
+	margin: 30px 0;
+	cursor: pointer;
+}
+
+.myMusicIndex .login {
+	padding: 10px;
+	height: 221px;
+	width: 278px;
+}
+.myMusicIndex .myDes {
+	margin-left: 10px;
+}
+.myMusicIndex .myDes h2 {
+	font-size: 14px;
+}
+.myMusicIndex .myDes li {
+	float: left;
+}
+.myMusicIndex .myDes .myposition li {
+	float: none;
+	padding: 0 25px;
+	margin-bottom: 7px;
+}
+.myMusicIndex .myDes .myposition li .sex {
+	margin-left: 15px;
+}
+.myMusicIndex .myDes .myposition .position {
+	background: url(../images/icon/myposition.png) no-repeat scroll left 2px transparent;
+}
+.myMusicIndex .myDes .myposition .job {
+	background: url(../images/icon/job.png) no-repeat scroll left center transparent;
+}
+.myMusicIndex .user_atten {
+	margin: 5px -10px;
+	border-bottom: 1px solid #C9C9C9;
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
+.myMusicIndex .user_atten li {
+	float: left;
+	border-right: 1px solid #C9C9C9;
+	padding-right: 15px;
+	margin-right: 15px;
+}
+.myMusicIndex .user_atten li a {
+	text-decoration: none;
+}
+.myMusicIndex .user_atten .no-border {
+	border-right: none;
+}
+.myMusicIndex .user_atten li strong {
+	color: #C00000;
+	font-size: 28px;
+	display: block;
+	font-weight: normal;
+}
+.myMusicIndex .user_atten li span {
+	font-family: "Heiti SC";
+}
+.myMusicIndex .toPlayer {
+	margin: 10px 0;
+}
+.myMusicIndex .toPlayer a {
+	text-decoration: none;
+}
+.myMusicIndex .toPlayer input {
+	border: 1px solid #C9C9C9;
+	background: #FFFFFF;
+	height: 60px;
+	width: 100%;
+	cursor: pointer;
+	border-radius: 5px;
 }

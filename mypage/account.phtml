@@ -11,7 +11,7 @@
 
 </head>
 
-<body class="rechargepage">
+<body class="accountPage">
 	<div id="Wrapper">
 		<div id="header">
 			<div id="headerInner">
@@ -93,39 +93,31 @@
 					<div class="myAccount">
 						<h2>账户</h2>
 						<ul class="clearfix">
-							<li class=""><a href="/mypage/account.phtml">我的账户</a></li>
+							<li class="current"><a href="/mypage/account.phtml">我的账户</a></li>
 							<li class=""><a href="/mypage/orderform.phtml">我的订单</a></li>
 							<li class=""><a href="/mypage/cart.phtml">购物车</a></li>
-							<li class="current"><a href="/mypage/recharge.phtml">账户充值</a></li>
+							<li class=""><a href="/mypage/recharge.phtml">账户充值</a></li>
 						</ul>
 						<div class="accountInner clearfix">
-							<div class="myrecharge">
-								<div class="myInfo">
-									<table>
-										<tr>
-											<th>账号：</th>
-											<td>E-mail</td>
-										</tr>
-										<tr>
-											<th>余额：</th>
-											<td>￥ <span class="mysum">102.80</span></td>
-										</tr>
-									</table>
-								</div>
-								<div class="rechargeInner">
-									<form action="?" method="post">
-										<dl>
-											<dt>充值金额：</dt>
-											<dd><label><input type="radio" name="amount" value="100" />￥100</label> <label><input type="radio" name="amount" value="50" />￥50</label> <label><input type="radio" name="amount" value="20" />￥20</label> <label><input type="radio" name="amount" value="10" />￥10</label> <label><input type="radio" name="amount" value="其他" />其他 ￥</label><input type="text" value="" /></dd>
-											<dt>选择支付方式：</dt>
-											<dd class="method"><label><input type="radio" name="method" value="alipay" /><img src="../images/payment/alipay.png" width="120" height="30" /></label> <label><input type="radio" name="method" value="paypal" /><img src="../images/payment/paypal.png" width="120" height="30" /></label></dd>
-										</dl>
-										<div class="paymentTotal">
-											需要支付的金额：￥<span class="totalsum">50</span>
-										</div>
-										<input type="submit" value="确定充值" />
-									</form>
-								</div>
+							<div class="fl myAvatar">
+								<img src="../images/avatar/sample_myavatar.png" width="90" height="90" alt="user name" />
+							</div>
+							<div class="fl accountInfo">
+								<table>
+									<tr>
+										<th>用户名：</th>
+										<td>user name</td>
+									</tr>
+									<tr>
+										<th>账号：</th>
+										<td>E-mail</td>
+									</tr>
+									<tr>
+										<th>余额：</th>
+										<td>￥ <span class="mysum">102.80</span></td>
+									</tr>
+								</table>
+								<a class="spend" href="/mypage/recharge.phtml"><input type="button" value="充值" /></a>
 							</div>
 						</div>
 					</div>

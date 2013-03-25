@@ -16,7 +16,7 @@
 
 </head>
 
-<body>
+<body class="myMusicIndex">
 	<div id="Wrapper">
 		<div id="header">
 			<div id="headerInner">
@@ -32,16 +32,42 @@
 					</div>
 					<div class="mainNavi">
 						<ul class="clearfix">
-							<li class="music current"><a href="/">音乐</a>
+							<li class="music current"><a href="/index.phtml">音乐</a>
 								<span class="naviArrow">
 									<img src="images/icon/arrow.png" />
 								</span>
 							</li>
-							<li class="community"><a href="/community">社区</a></li>
+							<li class="community"><a href="/community/index.phtml">社区</a></li>
 						</ul>
 					</div>
-					<div id="regist">
-						<a href="/community/regist.php">注册新账号</a>
+					<div id="myAccountTool">
+						<div class="cart">
+							<a class="myCart" href="/mypage/mycart.phtml"><img src="../images/icon/sample_avatar_small.png" width="24" height="24" alt="购物车" title="购物车" /></a>
+						</div>
+						<div class="myMail">
+							<a class="myMailOpen" href="javascript:void(0)"><img src="../images/icon/sample_avatar_small.png" width="24" height="24" alt="消息" title="信息中心" /></a>
+							<ul>
+								<li class="separat"><a href="#">全部信息</a></li>
+								<li class="atDiary"><a href="#">@我的日记 </a><span class="count">2</span></li>
+								<li class="atReply"><a href="#">@我的评论 </a><span class="count"></span></li>
+								<li class="mail"><a href="#">私信 </a><span class="count">3</span></li>
+								<li class="reply"><a href="#">收到的评论 </a><span class="count"></span></li>
+								<li class="sendReply"><a href="#">发出的评论 </a></li>
+								<li class="likeMe"><a href="#">喜欢我的</a></li>
+								<li class="reprint"><a href="#">转载</a></li>
+								<li class="msg"><a href="#">通知 </a><span class="count">1</span></li>
+							</ul>
+						</div>
+						<div class="myLink">
+							<a class="myLinkOpen" href="javascript:void(0)"><img src="../images/icon/sample_avatar_small.png" width="24" height="24" alt="用户名" title="用户名" /></a>
+							<ul>
+								<li><a href="#">我的页面</a></li>
+								<li><a href="/mypage/account.phtml">我的账户</a></li>
+								<li class="separat"><a href="#">设置中心</a></li>
+								<li><a href="#">退出</a></li>
+							</ul>
+						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -56,8 +82,8 @@
 					<div class="topNaviInner">
 						
 						<ul class="clearfix">
-							<li class="current"><a href="javascript:void(0);">首页</a></li>
-							<li><a href="javascript:void(0);">排行榜</a></li>
+							<li class="current"><a href="/home.phtml">首页</a></li>
+							<li><a href="rank.phtml">排行榜</a></li>
 							<li><a href="javascript:void(0);">分类浏览</a></li>
 							<li><a href="javascript:void(0);">我的音乐</a></li>
 						</ul>
@@ -79,22 +105,31 @@
 							</div>
 						</div>
 						<div class="login fr">
-							<form name="login" action="?" method="post">
-								<dl>
-									<dt>账号</dt>
-									<dd><input type="text" name="username" value="" placeholder="手机号/邮箱" /></dd>
-									<dt>密码</dt>
-									<dd><input type="password" name="pwd" value="" /></dd>
-								</dl>
-								<div class="clearfix">
-									<p class="fl">
-										<input type="submit" value="登录" name="submit" />
-									</p>
-									<p class="fr">
-										<label><input type="checkbox" value="记住我" name="rememberme"/>记住我</label>															<a href="#">忘记密码？</a>
-									</p>
+							<div class="clearfix">
+								<div class="fl myavatar">
+									<img width="90" height="90" alt="user name" src="images/avatar/sample_myavatar.png">
 								</div>
-							</form>
+								<div class="fl myDes">
+									<h2>用户名</h2>
+									<ul class="clearfix">
+										<li><img src="images/icon/sample_uploadimg.png" width="20" height="20" title="用户认证标识" /></li>
+										<li><img src="images/icon/sample_uploadimg.png" width="20" height="20" title="用户认证标识" /></li>
+										<li><img src="images/icon/sample_uploadimg.png" width="20" height="20" title="用户认证标识" /></li>
+									</ul>
+									<ul class="myposition">
+										<li class="position">上海 <span class="sex"><img src="images/icon/sex.png" width="" height="" /></span></li>
+										<li class="job">职业名称</li>
+									</ul>
+								</div>
+							</div>
+							<ul class="clearfix user_atten">
+								<li><a href="#"><strong>213</strong><span>购买</span></a></li>
+								<li><a href="#"><strong>314</strong><span>喜欢</span></a></li>
+								<li class="no-border"><a href="#"><strong>391</strong><span>听过</span></a></li>
+							</ul>
+							<div class="toPlayer">
+								<a href="#"><input type="button" value="打开播放器" /></a>
+							</div>
 						</div>
 					</div>
 					<div class="recommend">
